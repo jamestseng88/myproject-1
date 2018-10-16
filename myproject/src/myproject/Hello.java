@@ -17,6 +17,12 @@ public class Hello {
 		System.out.println("bmi:" + bmi);*/
         Person p = new Person(86.4f,1.8f);
         System.out.println(p.bmi());
+    Student stu =new Student("Hank",70,90);
+    stu.name="Hank";
+    stu.english= 70;
+    stu.math=90;
+    stu.print();
+    System.out.println(3<=5);
 	}
 
 }

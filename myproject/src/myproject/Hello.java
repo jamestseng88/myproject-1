@@ -1,9 +1,16 @@
 package myproject;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
 		System.out.println("Hello world");
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Your name");
+		String name=scanner.nextLine();
+		System.out .println(name);
+		
 
 		/*int age = 19;
 		float weight = 86.4f;

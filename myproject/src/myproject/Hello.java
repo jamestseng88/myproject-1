@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Hello {
 
 	public static void main(String[] args) {
+		for (int x=0 ; x<=5 ; x++)
+			System.out.println(x);
 		System.out.println("Hello world");
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Your name");

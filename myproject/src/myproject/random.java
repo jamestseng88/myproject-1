@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class random {
 	public static void main(String[] args) {
-		Random rondom = new Random();
-		int secret = rondom.nextInt(100) + 1;
+		Random random = new Random();
+		int secret = random.nextInt(100) + 1;
 		System.out.println(secret);
 		Scanner scanner = new Scanner(System.in);
 		int x = scanner.nextInt();

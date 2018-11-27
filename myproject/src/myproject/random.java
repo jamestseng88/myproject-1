@@ -15,5 +15,6 @@ public class random {
 		
 		}else
 		System.out.println("ture");
+		
 	}
 }
